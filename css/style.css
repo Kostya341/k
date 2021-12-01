@@ -1,0 +1,101 @@
+:root {
+    --yellow: #FFBC32; 
+}
+    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+button {
+    outline: 0;
+    background: none;
+}
+
+li {
+    list-style-type: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 27px;
+}
+
+.logo {
+
+}
+
+.date {
+   font-size: 11px;
+   line-height: 13px;
+   text-align: center;
+}
+
+.address a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+}
+
+
+.mark {
+    vertical-align: middle;
+}
+
+.city {
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.number {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.time {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+}
+
+.header button {
+    color: white;
+    padding: 12px 50px;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 16px;  
+    cursor: pointer;
+    background: rgb(255,211,80);
+    background: linear-gradient(180deg, rgba(255,211,80,1) 50%, rgba(255,184,44,1) 100%);
+}   
+
+.header button:hover {
+    background: rgb(255,211,80);
+    background: linear-gradient(0deg, rgba(255,211,80,1) 50%, rgba(255,184,44,1) 100%);
+}
