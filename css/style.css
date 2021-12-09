@@ -40,7 +40,9 @@ a {
 
 .title{
     background: url(../images/context.svg);
-    height: 762px;
+    background-size: cover;
+    padding-bottom: 50px;
+    
 }
 
 .header {
@@ -123,21 +125,24 @@ a {
     cursor: pointer;
     padding-right: 35px;
 }
-
-.main{
-    background: url(../images/Group.png) no-repeat;
-    background-position: 751px 0px;
-    margin-bottom: 509px;
+.main {
+    position: relative;
+}
+.image__house{
+    position: absolute;
+    top: 0px;
+    right: 9px;
 }
 
 .main h1 {
     margin-left: 27px;
     font-size: 47px;
     line-height: 55px;
+    margin-bottom: 13px;
 }
 
 .main span {
-    margin-top: 13px;
+   
     margin-left: 27px;
     font-size: 20px;
     line-height: 23px;
@@ -488,7 +493,7 @@ a {
     padding-top: 47px;
     margin-left: 34px;
     width: 360px;
-    height: 876px;
+    height: 880px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -498,7 +503,7 @@ a {
     padding-top: 47px;
     margin-left: 34px;
     width: 360px;
-    height: 876px;
+    height: 880px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -513,6 +518,18 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
+
+.universal{
+    height: 100%;
+    position: relative;
+}
+
+.lower__block{
+    position: absolute;
+    bottom: 25px;
+}
+
+
 
 .gray {
     width: 320px;
@@ -584,7 +601,7 @@ ul .li__third {
 
 
 .span__first {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
@@ -602,7 +619,7 @@ ul .li__third {
 
 
 .span__third {
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
@@ -851,6 +868,7 @@ ul .li__third {
     margin-bottom: 5px;
 }
 
+
 ul .odd{
     background: #f2f2f2;
 }
@@ -876,3 +894,6 @@ ul .odd{
     background: #f2f2f2;
     border-bottom: 1px solid #e0e0e0;
 }
+
+ 
+
