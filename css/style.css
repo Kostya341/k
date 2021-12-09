@@ -1118,15 +1118,29 @@ ul .odd{
 .netting {
     display: grid;
     grid-template-columns: repeat(4, 253px);
+    margin-left: 45px;
     grid-column-gap: 32px;
     grid-row-gap: 32px;
+    text-align: center;
+}
+
+.repair__services {
+    position: relative;
+     
+}
+
+.description__link {
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
 }
 
 
-.netting__first {
-    display: grid;
-    grid-template-columns: repeat(4, 253px);
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
-    justify-items: center;
-}
+
+ 
